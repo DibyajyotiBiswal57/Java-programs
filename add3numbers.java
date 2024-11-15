@@ -16,7 +16,7 @@ public class add3numbers {
         System.out.print("Enter third number: ");
         int c = scanner.nextInt(); 
 
-        int sum = a+b+c
+        int sum = a+b+c;
 
         // Display the entered information
         System.out.println("Sum: " +sum);
