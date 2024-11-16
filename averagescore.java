@@ -1,28 +1,26 @@
 import java.util.Scanner;
 
-public class averagescore {
+public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter 4 marks");
-        System.out.print("1: ");
-        int a = scanner.nextInt(); 
+        System.out.println("Enter 4 marks");
+        System.out.println("1: ");
+        double a = scanner.nextDouble(); 
 
-        System.out.print("2: ");
-        int b = scanner.nextInt(); 
+        System.out.println("2: ");
+        double b = scanner.nextDouble(); 
 
-        System.out.print("3: ");
-        int c = scanner.nextInt(); 
+        System.out.println("3: ");
+        double c = scanner.nextDouble(); 
       
-        System.out.print("4: ");
-        int d = scanner.nextInt(); 
+        System.out.println("4: ");
+        double d = scanner.nextDouble(); 
 
-        int aver = (a+b+c+d)/4; 
+        double aver = (a+b+c+d)/4; 
 
 
         System.out.println("The average is: " +aver);
-        
-        scanner.close();
     }
 }
