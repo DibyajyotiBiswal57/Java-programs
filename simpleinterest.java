@@ -3,6 +3,7 @@ public class simpleinterest
 {
     public static void main(String args[])
     {
+        System.out.println("This program finds the simple interest on a given sum of money.");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the principle:"); 
         double p = scanner.nextDouble();
