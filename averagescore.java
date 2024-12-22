@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-public class Main {
+public class averagescore {
     public static void main(String[] args) {
 
+        System.out.println("This program finds the average of 4 marks.");
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter 4 marks");
