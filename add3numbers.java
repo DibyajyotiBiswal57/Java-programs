@@ -3,21 +3,23 @@ import java.util.Scanner;
 public class add3numbers {
     public static void main(String[] args) {
 
+        System.out.println("This program adds 3 numbers.");
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        int a = scanner.nextInt(); 
+        double a = scanner.nextDouble(); 
 
         System.out.print("Enter second number: ");
-        int b = scanner.nextInt(); 
+        double b = scanner.nextDouble(); 
 
         System.out.print("Enter third number: ");
-        int c = scanner.nextInt(); 
+        double c = scanner.nextDouble(); 
 
-        int sum = a+b+c;
+        double sum = a+b+c;
 
 
-        System.out.println("Sum: " +sum);
+        System.out.println("The code is " +sum);
         
         scanner.close();
     }
