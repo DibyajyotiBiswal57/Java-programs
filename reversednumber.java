@@ -3,6 +3,7 @@ public class reversednumber
 {
     public static void main(String args[])    
     {
+        System.out.println("This program accepts a 3 digit number and reverses the digits.");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a 3-digit number:");
         int no = scanner.nextInt();
