@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class area
+public class volume
 {
     public static void main(String args[])
     {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("This program finds out the area of a square, rectangle, circle, parallelogram, rhombus or trapezium.");
-        System.out.println("Choose the shape");
+        System.out.println("This program finds out the volume of a cube, cuboid, cylinder, cone or sphere");
+        System.out.println("Choose the solid");
         System.out.println("For square, type '1'");
         System.out.println("For rectangle, type '2'");
         System.out.println("For circle, type '3'");
