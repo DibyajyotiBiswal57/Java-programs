@@ -1,2 +1,2 @@
-# Java-programs
+# Java programs
 Some Java programs that I made.
