@@ -11,6 +11,9 @@ public class area
         System.out.println("For square, type '1'");
         System.out.println("For rectangle, type '2'");
         System.out.println("For circle, type '3'");
+        System.out.println("For parallelogram, type '4'");
+        System.out.println("For rhombus, type '5'");
+        System.out.println("For trapezium, type '6'");
         System.out.println("Enter your choice:");
         int choice = scanner.nextInt();
 
@@ -47,6 +50,46 @@ public class area
         
         double circlearea= Math.PI*2*rad;
         System.out.println("The area of the cirle is " +circlearea);
+        }
+        else if(choice==4)
+        {
+        System.out.print("Enter the length of the parallelogram: ");
+        double bas = scanner.nextInt();
+        System.out.println("Your length is " +bas);
+        
+        System.out.print("Enter the height of the parallelogram: ");
+        double hei = scanner.nextInt();
+        System.out.println("Your height is " +hei);
+        
+        double parallelogramarea= bas*hei;
+        System.out.println("The area of the parallelogram is " +parallelogramarea);
+        }
+        else if(choice==5)
+        {
+        System.out.print("Enter the length of a diagonal of the rhombus: ");
+        double d1 = scanner.nextInt();
+        System.out.println("The first diagonal is " +d1);
+        
+        System.out.print("Enter the length of another diagonal of the rhombus: ");
+        double d2 = scanner.nextInt();
+        System.out.println("The second diagonal is " +d2);
+        
+        double rhombusarea= 0.5*d1*d2;
+        System.out.println("The area of the rhombus is " +rhombusarea);
+        }
+        else if(choice==6)
+        {
+        System.out.print("Enter the height of the trapezium: ");
+        double hei = scanner.nextInt();
+        System.out.println("The height is " +hei);
+        
+        System.out.print("Enter the length of the parallel sides of the trapezium: ");
+        double s1 = scanner.nextInt();
+        double s2 = scanner.nextInt();
+        System.out.println("The lengths are " +s1+" and "+s2);
+        
+        double trapeziumarea= 0.5*hei*(s1+s2);
+        System.out.println("The area of the rhombus is " +trapeziumarea);
         }
         
         
