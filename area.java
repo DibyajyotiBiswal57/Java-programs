@@ -48,7 +48,7 @@ public class area
         double rad = scanner.nextInt();
         System.out.println("Your radius is " +rad);
         
-        double circlearea= Math.PI*2*rad;
+        double circlearea= Math.PI*rad*rad;
         System.out.println("The area of the cirle is " +circlearea);
         }
         else if(choice==4)
