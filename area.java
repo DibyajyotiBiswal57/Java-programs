@@ -14,6 +14,7 @@ public class area
         System.out.println("For parallelogram, type '4'");
         System.out.println("For rhombus, type '5'");
         System.out.println("For trapezium, type '6'");
+        System.out.println("For triangle, type '6'");
         System.out.println("Enter your choice:");
         int choice = scanner.nextInt();
 
@@ -91,8 +92,20 @@ public class area
         double trapeziumarea= 0.5*hei*(s1+s2);
         System.out.println("The area of the rhombus is " +trapeziumarea);
         }
+        else if(choice==7)
+        {
+        System.out.print("Enter the length of the base of the triangle: ");
+        double bas = scanner.nextInt();
+        System.out.println("Your base is " +bas);
         
+        System.out.print("Enter the height of the triangle: ");
+        double hei = scanner.nextInt();
+        System.out.println("Your height is " +hei);
+        
+        double trianglearea= 1/2*hei*bas;
+        System.out.println("The area of the rectangle is " +trianglearea);
         
         scanner.close();
     }
+}
 }
