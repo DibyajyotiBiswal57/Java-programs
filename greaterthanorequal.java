@@ -8,9 +8,9 @@ public class greaterthanorequal
         
         System.out.println("This program takes 2 number and tells which number is greater");
         System.out.println("Enter the first number:");
-        int a = scanner.nextInt();
+        double a = scanner.nextInt();
         System.out.println("Enter the second number:");
-        int b = scanner.nextInt();
+        double b = scanner.nextInt();
 
         if(a==b)
         {
