@@ -16,18 +16,33 @@ public class profitandloss
         {
 
         System.out.println("It is a loss");
-        double loss=cp-sp
-        System.out.println("The loss is "+cp-sp);
+        double loss=cp-sp;
+        System.out.println("The loss is "+loss);
+        double lpercent=loss/cp*100;
         }
         
-        else if(a>b)
+        else if(cp<sp)
         {
-        System.out.println(a+" is greater than " +b);
+        
+        System.out.println("It is a profit");
+        double profit=sp-cp;
+        System.out.println("The profit is "+profit);
+        double ppercent=profit/cp*100;
+        System.out.println("The profit percent is "+ppercent);
         }
         
-        else if(b>a)
+        else if(cp==sp)
         {
-        System.out.println(b+" is greater than " +a);
+        
+        System.out.println("There is neither a profit nor a loss.");
+        double loss=cp-sp;
+        double profit=sp-cp;
+        System.out.println("The loss is "+loss);
+        System.out.println("The profit is "+profit);
+        double lpercent=loss/cp*100;
+        double ppercent=profit/cp*100;
+        System.out.println("The loss percent is "+lpercent);
+        System.out.println("The profit percent is "+ppercent);
         }
         scanner.close();
     }
