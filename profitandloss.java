@@ -19,6 +19,7 @@ public class profitandloss
         double loss=cp-sp;
         System.out.println("The loss is "+loss);
         double lpercent=loss/cp*100;
+        System.out.println("The loss percent is "+lpercent);
         }
         
         else if(cp<sp)
