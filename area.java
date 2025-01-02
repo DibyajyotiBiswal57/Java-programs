@@ -90,7 +90,7 @@ public class area
         System.out.println("The lengths are " +s1+" and "+s2);
         
         double trapeziumarea= 0.5*hei*(s1+s2);
-        System.out.println("The area of the rhombus is " +trapeziumarea);
+        System.out.println("The area of the trapezium is " +trapeziumarea);
         }
         else if(choice==7)
         {
@@ -103,7 +103,7 @@ public class area
         System.out.println("Your height is " +hei);
         
         double trianglearea= 1/2*hei*bas;
-        System.out.println("The area of the rectangle is " +trianglearea);
+        System.out.println("The area of the triangle is " +trianglearea);
         
         scanner.close();
     }
