@@ -12,7 +12,7 @@ public class swappingwithout3rdvar
         int b = scanner.nextInt();
       a=a+b;
       b=a-b;
-      a=a-b
+      a=a-b;
         System.out.println("The swapped numbers are "+a+" and "+b);
         scanner.close();
 }
