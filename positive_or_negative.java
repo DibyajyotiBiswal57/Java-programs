@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class positiveornegative
+public class positive_or_negative
 {
     public static void main(String args[])
     {
