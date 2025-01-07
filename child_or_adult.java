@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class childoradult {
+public class child_or_adult {
 
     public static void main(String[] args) {
         System.out.println("This program checks if a person is a child or an adult.");
