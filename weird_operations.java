@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class weirdoperations
+public class weird_operations
 {
     public static void main(String args[])    
     {
