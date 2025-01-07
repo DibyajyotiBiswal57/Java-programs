@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class profitandloss
+public class profit_and_loss
 {
     public static void main(String args[])
     {
