@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class simpleinterest
+public class simple_interest
 {
     public static void main(String args[])
     {
