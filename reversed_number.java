@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class reversednumber
+public class reversed_number
 {
     public static void main(String args[])    
     {
