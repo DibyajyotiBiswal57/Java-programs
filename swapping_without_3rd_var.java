@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class swappingwithout3rdvar
+public class swapping_without_3rd_var
 {
     public static void main(String args[])
     {
