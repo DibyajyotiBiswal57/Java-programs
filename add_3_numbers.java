@@ -19,7 +19,7 @@ public class add_3_numbers {
         double sum = a+b+c;
 
 
-        System.out.println("The code is " +sum);
+        System.out.println("The sum is " +sum);
         
         scanner.close();
     }
