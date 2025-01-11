@@ -11,11 +11,11 @@ public class largest_number
         double b = scanner.nextDouble();
         System.out.println("Enter the third number:");
         double c = scanner.nextDouble();
-        if(a>b & a>c)
+        if(a>b && a>c)
         System.out.println(a+" is the largest number.");
-        else if(b>c & b>a)
+        else if(b>c && b>a)
         System.out.println(b+" is the largest number.");
-        else if(c>b & c>a)
+        else if(c>b && c>a)
         System.out.println(c+" is the largest number.");
         scanner.close();
     }
