@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class digits_finder {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
