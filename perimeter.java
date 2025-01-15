@@ -45,7 +45,7 @@ public class perimeter
         
         else if(choice==3)
         {
-        System.out.print("Enter the radius of the circle: ");
+        System.out.println("Enter the radius of the circle: ");
         double rad = scanner.nextInt();
         System.out.println("Your radius is " +rad);
         
