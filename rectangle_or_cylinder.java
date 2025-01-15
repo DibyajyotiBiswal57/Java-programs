@@ -15,14 +15,14 @@ public class rectangle_or_cylinder {
         boolean isRectangle = scanner.nextBoolean();
 
         if (isRectangle) {
-            // Calculate area and perimeter of rectangle
+
             double area = num1 * num2;
             double perimeter = 2 * (num1 + num2);
 
             System.out.println("Area of rectangle: " + area);
             System.out.println("Perimeter of rectangle: " + perimeter);
         } else {
-            // Calculate surface area and volume of cylinder
+
             double height = num1;
             double radius = num2;
 
